@@ -5,15 +5,15 @@ Architecture Technique
 
 Backend (Flask + SQLite)
 
- /gestion-immobilisations-backend/
- ├── src/
- │ ├── main.py              # Application Flask principale
- │ ├── models/
- │ │ └── immobilisation.py # Modèles de données SQLite
- │ ├── routes/
- │ │ └── immobilisation.py # API REST endpoints
- │ ├── static/            # Frontend React compilé
- │ └── database.db            # Base de données SQLite
+ gestion-immobilisations-backend
+ src
+ main.py              # Application Flask principale
+ models
+  immobilisation.py # Modèles de données SQLite
+ routes
+  immobilisation.py # API REST endpoints
+ static/            # Frontend React compilé
+ database.db            # Base de données SQLite
 
 
 
@@ -103,7 +103,3 @@ Fichier de Base de Données
   • Nouveaux endpoints : Ajouter dans routes/immobilisation.py
   • Interface : Modifier le frontend React
   • Rapports : Étendre les fonctions d'export
-
-
-
-
